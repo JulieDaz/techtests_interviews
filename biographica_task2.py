@@ -47,7 +47,6 @@ def get_hydrolase(assembly2_data) :
 
                     ## find the function in the properties
                     if "F:hydrolase activity, acting on ester bonds" in keys["value"] :
-                        # print(result["from"], ref["id"], keys["value"])
                         ## put result["from"] which is the gene id in a list
                         list_geneid_hydrolase_ester.append(result["from"])
 

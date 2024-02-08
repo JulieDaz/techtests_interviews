@@ -152,7 +152,6 @@ def desambiguate_data(dict_seq2desambiguate, list_duplicates, all_records, all_r
     for ident in all_records_id :
         for rec in all_records :
             if ident == rec.id :
-                # print("coucou")
                 final_record.append(rec)
 
     return final_record
